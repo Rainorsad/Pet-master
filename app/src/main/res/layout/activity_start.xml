@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.platform.bookshare.view.view.wowsplash.WowSplashView
+        android:id="@+id/wowSplash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <com.platform.bookshare.view.view.wowsplash.WowView
+        android:id="@+id/wowView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
