@@ -18,9 +18,9 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.platform.bookshare.R;
 import com.platform.bookshare.config.Config;
 import com.platform.bookshare.utils.StatusBarUtils;
-import com.platform.bookshare.R;
 import com.zhy.autolayout.AutoLinearLayout;
 
 import java.util.ArrayList;
@@ -110,7 +110,7 @@ public class LeaderActivity extends AppCompatActivity
         startAnimation(0);
 
         mLinMain.setVisibility(View.VISIBLE);
-        mLinMain.animate().setDuration(300).scaleY(1).scaleX(1);
+        mLinMain.animate().setDuration(500).scaleY(1).scaleX(1);
     }
 
     //初始化引导页指示器
@@ -215,14 +215,14 @@ public class LeaderActivity extends AppCompatActivity
         switch (view.getId())
         {
             case R.id.leader_register:
-                mLinMain.animate().setDuration(300).scaleX(0).scaleY(0);
-                mLinMain.setVisibility(View.GONE);
+                mLinMain.animate().setDuration(500).scaleX(0).scaleY(0);
+//                mLinMain.setVisibility(View.GONE);
                 startActivity(new Intent(instance, RegisterActivity.class));
 //                finish();
                 break;
             case R.id.leader_login:
-                mLinMain.animate().setDuration(300).scaleX(0).scaleY(0);
-                mLinMain.setVisibility(View.GONE);
+                mLinMain.animate().setDuration(500).scaleX(0).scaleY(0);
+//                mLinMain.setVisibility(View.GONE);
                 startActivity(new Intent(LeaderActivity.this, LoginActivity.class));
 //                finish();
                 break;
@@ -235,7 +235,7 @@ public class LeaderActivity extends AppCompatActivity
     protected void onResume() {
         super.onResume();
         mLinMain.setVisibility(View.VISIBLE);
-        mLinMain.animate().setDuration(300).scaleY(1).scaleX(1);
+        mLinMain.animate().setDuration(500).scaleY(1).scaleX(1);
     }
 
     //ViewPager适配器

@@ -196,10 +196,6 @@ public class ServiceFragment extends BaseFragment implements SensorEventListener
             }
         }
 
-        @Override
-        public void onConnectHotSpotMessage(String s, int i) {
-
-        }
 
         public void onReceivePoi(BDLocation poiLocation) {
         }

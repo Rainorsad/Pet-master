@@ -48,7 +48,7 @@ public class RegisterActivity extends AppCompatActivity implements TextWatcher {
         mRegisterPass.addTextChangedListener(this);
         mRegisterPhone.addTextChangedListener(this);
         mLinMain.setVisibility(View.VISIBLE);
-        mLinMain.animate().setDuration(300).scaleY(1).scaleX(1);
+        mLinMain.animate().setDuration(500).scaleY(1).scaleX(1);
     }
 
 
@@ -56,8 +56,7 @@ public class RegisterActivity extends AppCompatActivity implements TextWatcher {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.top_back://返回
-                mLinMain.animate().setDuration(300).scaleX(0).scaleY(0);
-                mLinMain.setVisibility(View.GONE);
+                mLinMain.animate().setDuration(500).scaleX(0).scaleY(0);
                 instance.finish();
                 break;
             case R.id.register_btn://下一步

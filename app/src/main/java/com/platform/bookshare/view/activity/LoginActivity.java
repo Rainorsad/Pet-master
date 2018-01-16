@@ -39,7 +39,7 @@ public class LoginActivity extends AppCompatActivity
     {
         mTopText.setText("登录");
         mLinMain.setVisibility(View.VISIBLE);
-        mLinMain.animate().setDuration(300).scaleX(1).scaleY(1);
+        mLinMain.animate().setDuration(500).scaleX(1).scaleY(1);
     }
 
     @OnClick({R.id.top_back, R.id.login_miss, R.id.login_btn, R.id.login_more})
@@ -48,8 +48,7 @@ public class LoginActivity extends AppCompatActivity
         switch (view.getId())
         {
             case R.id.top_back:
-                mLinMain.animate().setDuration(300).scaleX(0).scaleY(0);
-                mLinMain.setVisibility(View.GONE);
+                mLinMain.animate().setDuration(500).scaleX(0).scaleY(0);
                 finish();
                 break;
             case R.id.login_miss:

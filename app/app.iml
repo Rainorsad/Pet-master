@@ -105,6 +105,7 @@
     <orderEntry type="jdk" jdkName="Android API 25 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test:exposed-instrumentation-api-publish-0.5" level="project" />
+    <orderEntry type="library" name="__local_aars__:E.\workpah\Pet-master\Pet-master\app\libs\KJFrameForAndroid_v2.245.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.facebook.fresco:fbcore-0.12.0" level="project" />
     <orderEntry type="library" scope="TEST" name="junit:junit:4.12@jar" level="project" />
     <orderEntry type="library" name="com.facebook.fresco:drawee-0.12.0" level="project" />
@@ -116,7 +117,8 @@
     <orderEntry type="library" name="com.zhy:autolayout-1.4.5" level="project" />
     <orderEntry type="library" name="com.parse.bolts:bolts-tasks:1.4.0@jar" level="project" />
     <orderEntry type="library" name="com.nineoldandroids:library:2.4.0@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:C.\Users\WB\Desktop\Pet-master_0115\Pet-master\app\libs\BaiduLBS_Android.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:E.\workpah\Pet-master\Pet-master\app\libs\json.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:E.\workpah\Pet-master\Pet-master\app\libs\universal-image-loader-1.9.3.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.facebook.fresco:imagepipeline-0.12.0" level="project" />
     <orderEntry type="library" name="com.android.support.constraint:constraint-layout-solver:1.0.2@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-utils-25.3.1" level="project" />
@@ -130,7 +132,6 @@
     <orderEntry type="library" name="com.jakewharton:butterknife-8.4.0" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test.espresso:espresso-core-2.2.2" level="project" />
     <orderEntry type="library" name="com.android.support:animated-vector-drawable-25.3.1" level="project" />
-    <orderEntry type="library" name="__local_aars__:C.\Users\WB\Desktop\Pet-master_0115\Pet-master\app\libs\zxing.jar:unspecified@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test:rules-0.5" level="project" />
     <orderEntry type="library" name="com.android.support:transition-25.3.1" level="project" />
     <orderEntry type="library" name="com.android.support:design-25.3.1" level="project" />
@@ -138,12 +139,11 @@
     <orderEntry type="library" scope="TEST" name="org.hamcrest:hamcrest-integration:1.3@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test:runner-0.5" level="project" />
     <orderEntry type="library" name="com.android.support:appcompat-v7-25.3.1" level="project" />
+    <orderEntry type="library" name="__local_aars__:E.\workpah\Pet-master\Pet-master\app\libs\zxing.jar:unspecified@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="com.android.support.test.espresso:espresso-idling-resource-2.2.2" level="project" />
     <orderEntry type="library" name="com.squareup.picasso:picasso:2.5.2@jar" level="project" />
     <orderEntry type="library" scope="TEST" name="javax.annotation:javax.annotation-api:1.2@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:C.\Users\WB\Desktop\Pet-master_0115\Pet-master\app\libs\json.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:C.\Users\WB\Desktop\Pet-master_0115\Pet-master\app\libs\universal-image-loader-1.9.3.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:C.\Users\WB\Desktop\Pet-master_0115\Pet-master\app\libs\KJFrameForAndroid_v2.245.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:E.\workpah\Pet-master\Pet-master\app\libs\BaiduLBS_Android.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.android.support:support-vector-drawable-25.3.1" level="project" />
     <orderEntry type="library" name="com.facebook.fresco:imagepipeline-base-0.12.0" level="project" />
     <orderEntry type="library" name="com.android.support:recyclerview-v7-25.3.1" level="project" />
