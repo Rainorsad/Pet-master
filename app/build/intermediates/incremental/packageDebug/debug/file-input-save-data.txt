@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jan 24 16:26:29 CST 2018
+#Wed Jan 24 17:14:00 CST 2018
 5.base=E\:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 42.base=E\:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 22.path=lib/x86_64/libBaiduMapSDK_base_v4_3_1.so

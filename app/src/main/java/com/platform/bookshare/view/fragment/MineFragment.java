@@ -88,8 +88,8 @@ public class MineFragment extends BaseFragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.fragme_circlehead:
-//                PhotoViewUtils.openCamera(context);
-                opCam(context);
+                PhotoViewUtils.openCamera(context);
+//                opCam(context);
                 break;
         }
     }
