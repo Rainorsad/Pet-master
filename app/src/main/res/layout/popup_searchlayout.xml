@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:scaleX="0"
+        android:scaleY="0"
+        android:elevation="15dp"
+        android:id="@+id/rela_main"
+        android:layout_width="175dp"
+        android:layout_height="154dp"
+        android:background="@drawable/linstyle_search">
+
+        <com.platform.bookshare.utils.view.CircleImage
+            android:id="@+id/cir_head"
+            android:layout_width="49dp"
+            android:layout_height="49dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/fragme_head" />
+
+        <LinearLayout
+            android:id="@+id/lin_userinfo"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/cir_head"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="张琛"
+                android:textColor="@color/A1A1A1"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_userphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="18515030863"
+                android:textSize="13dp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_book"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_below="@+id/cir_head"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/head" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@+id/lin_userinfo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/img_book"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_bookname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="福尔摩斯探案集"
+                android:textColor="@color/black_181819"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

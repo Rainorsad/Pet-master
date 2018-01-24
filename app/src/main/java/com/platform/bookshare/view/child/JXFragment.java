@@ -175,7 +175,9 @@ public class JXFragment extends BaseFragment
     @Override
     public void startdestroy()
     {
-        mUnbinder.unbind();
+        if (mUnbinder != null) {
+            mUnbinder.unbind();
+        }
         mAdapter = null;
         mList = null;
         mHandler = null;

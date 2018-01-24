@@ -72,7 +72,9 @@ public class PDFragment extends BaseFragment
     @Override
     public void startdestroy()
     {
-        mUnbinder.unbind();
+        if (mUnbinder != null) {
+            mUnbinder.unbind();
+        }
         mAdapter = null;
     }
 

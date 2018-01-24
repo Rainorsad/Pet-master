@@ -4,6 +4,8 @@ package com.platform.bookshare.view.activity;
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
 import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
 import butterknife.Unbinder;
 import butterknife.internal.DebouncingOnClickListener;
 import butterknife.internal.Utils;
@@ -14,25 +16,31 @@ import java.lang.Override;
 public class MissActivity_ViewBinding<T extends MissActivity> implements Unbinder {
   protected T target;
 
-  private View view2131231098;
+  private View view2131231074;
 
-  private View view2131230946;
+  private View view2131231173;
 
   @UiThread
   public MissActivity_ViewBinding(final T target, View source) {
     this.target = target;
 
     View view;
-    view = Utils.findRequiredView(source, R.id.top_back, "method 'onViewClicked'");
-    view2131231098 = view;
+    target.registerPhone = Utils.findRequiredViewAsType(source, R.id.register_phone, "field 'registerPhone'", EditText.class);
+    target.registerPass = Utils.findRequiredViewAsType(source, R.id.register_pass, "field 'registerPass'", EditText.class);
+    target.codeNums = Utils.findRequiredViewAsType(source, R.id.code_nums, "field 'codeNums'", TextView.class);
+    target.registCode = Utils.findRequiredViewAsType(source, R.id.regist_code, "field 'registCode'", EditText.class);
+    view = Utils.findRequiredView(source, R.id.regist_btn, "field 'registBtn' and method 'onViewClicked'");
+    target.registBtn = Utils.castView(view, R.id.regist_btn, "field 'registBtn'", TextView.class);
+    view2131231074 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
         target.onViewClicked(p0);
       }
     });
-    view = Utils.findRequiredView(source, R.id.miss_btn, "method 'onViewClicked'");
-    view2131230946 = view;
+    target.topText = Utils.findRequiredViewAsType(source, R.id.top_text, "field 'topText'", TextView.class);
+    view = Utils.findRequiredView(source, R.id.top_back, "method 'onViewClicked'");
+    view2131231173 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -44,12 +52,20 @@ public class MissActivity_ViewBinding<T extends MissActivity> implements Unbinde
   @Override
   @CallSuper
   public void unbind() {
-    if (this.target == null) throw new IllegalStateException("Bindings already cleared.");
+    T target = this.target;
+    if (target == null) throw new IllegalStateException("Bindings already cleared.");
 
-    view2131231098.setOnClickListener(null);
-    view2131231098 = null;
-    view2131230946.setOnClickListener(null);
-    view2131230946 = null;
+    target.registerPhone = null;
+    target.registerPass = null;
+    target.codeNums = null;
+    target.registCode = null;
+    target.registBtn = null;
+    target.topText = null;
+
+    view2131231074.setOnClickListener(null);
+    view2131231074 = null;
+    view2131231173.setOnClickListener(null);
+    view2131231173 = null;
 
     this.target = null;
   }

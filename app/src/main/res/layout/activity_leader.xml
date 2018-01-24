@@ -7,9 +7,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorWhite"
-    android:scaleY="1"
-    android:scaleX="1"
-    android:visibility="gone"
     android:orientation="vertical"
     tools:context="com.yianke.pet.com.book.pet.view.activity.LeaderActivity">
 

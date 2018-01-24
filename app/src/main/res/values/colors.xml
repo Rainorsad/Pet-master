@@ -4,8 +4,25 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorWhite">#ffffff</color>
-    <color name="colorPet">#f2473d</color>
+    <!--<color name="colorPet">#f2473d</color>-->
+    <color name="colorPet">#0ABFFA</color>
+    <color name="gl_background">#737373</color>
     <color name="colorF0">#f0f0f0</color>
     <color name="color9">#999999</color>
-
+    <color name="text0abffa">#0ABFFA</color>
+    <color name="F4F4F4">#f4f4f4</color>
+    <color name="A1A1A1">#1a1a1a</color>
+    <color name="BFC0BF">#bfc0bf</color>
+    <color name="D3D3D3">#d3d3d3</color>
+    <color name="FFFFFF">#ffffff</color>
+    <color name="CFE7FB">#cfe7fb</color>
+    <color name="nine">#999999</color>
+    <color name="FBC949">#fbc949</color>
+    <color name="blue_7D8CFF">#7d8cff</color>
+    <color name="blue_6698E8">#6698e8</color>
+    <color name="blue_70CCFF">#70ccff</color>
+    <color name="white_8a8a8a">#8a8a8a</color>
+    <color name="ededed">#ededed</color>
+    <color name="black_181819">#181819</color>
+    <color name="green_3ebb83">#3ebb83</color>
 </resources>

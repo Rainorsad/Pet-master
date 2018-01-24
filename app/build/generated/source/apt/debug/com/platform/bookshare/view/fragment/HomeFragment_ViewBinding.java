@@ -17,11 +17,11 @@ import java.lang.Override;
 public class HomeFragment_ViewBinding<T extends HomeFragment> implements Unbinder {
   protected T target;
 
-  private View view2131230849;
+  private View view2131230900;
 
-  private View view2131230851;
+  private View view2131230902;
 
-  private View view2131230850;
+  private View view2131230901;
 
   @UiThread
   public HomeFragment_ViewBinding(final T target, View source) {
@@ -34,7 +34,7 @@ public class HomeFragment_ViewBinding<T extends HomeFragment> implements Unbinde
     target.mDicThree = Utils.findRequiredViewAsType(source, R.id.dic_three, "field 'mDicThree'", TextView.class);
     target.mHomeMain = Utils.findRequiredViewAsType(source, R.id.home_main, "field 'mHomeMain'", ViewPager.class);
     view = Utils.findRequiredView(source, R.id.home_one, "method 'onViewClicked'");
-    view2131230849 = view;
+    view2131230900 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -42,7 +42,7 @@ public class HomeFragment_ViewBinding<T extends HomeFragment> implements Unbinde
       }
     });
     view = Utils.findRequiredView(source, R.id.home_two, "method 'onViewClicked'");
-    view2131230851 = view;
+    view2131230902 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -50,7 +50,7 @@ public class HomeFragment_ViewBinding<T extends HomeFragment> implements Unbinde
       }
     });
     view = Utils.findRequiredView(source, R.id.home_three, "method 'onViewClicked'");
-    view2131230850 = view;
+    view2131230901 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -71,12 +71,12 @@ public class HomeFragment_ViewBinding<T extends HomeFragment> implements Unbinde
     target.mDicThree = null;
     target.mHomeMain = null;
 
-    view2131230849.setOnClickListener(null);
-    view2131230849 = null;
-    view2131230851.setOnClickListener(null);
-    view2131230851 = null;
-    view2131230850.setOnClickListener(null);
-    view2131230850 = null;
+    view2131230900.setOnClickListener(null);
+    view2131230900 = null;
+    view2131230902.setOnClickListener(null);
+    view2131230902 = null;
+    view2131230901.setOnClickListener(null);
+    view2131230901 = null;
 
     this.target = null;
   }

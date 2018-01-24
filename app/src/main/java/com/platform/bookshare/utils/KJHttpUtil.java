@@ -2,9 +2,6 @@ package com.platform.bookshare.utils;
 
 import android.content.Context;
 import android.os.Build;
-import android.util.Log;
-
-import com.platform.bookshare.config.UrlConfig;
 
 import org.kymjs.kjframe.KJHttp;
 import org.kymjs.kjframe.http.HttpCallBack;
@@ -82,6 +79,11 @@ public class KJHttpUtil {
         getKjHttp().get(url, httpParams, callBack);
     }
 
+    /**
+     * 获得验证码
+     */
+    public static void getCodeNumber(Context context,String phone,HttpCallBack callBack){
 
+    }
 
 }

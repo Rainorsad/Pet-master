@@ -3455,6 +3455,8 @@ public final class R {
     public static final int notification_template_icon_low_bg=0x7f07006b;
     public static final int notification_tile_bg=0x7f07006c;
     public static final int notify_panel_notification_icon_bg=0x7f07006d;
+    public static final int snackbar_action_bg=0x7f07006e;
+    public static final int snackbar_action_bg_focused=0x7f07006f;
   }
   public static final class id {
     public static final int action0=0x7f080000;

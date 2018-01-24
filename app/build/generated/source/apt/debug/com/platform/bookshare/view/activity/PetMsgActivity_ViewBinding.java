@@ -15,11 +15,11 @@ import java.lang.Override;
 public class PetMsgActivity_ViewBinding<T extends PetMsgActivity> implements Unbinder {
   protected T target;
 
-  private View view2131231098;
+  private View view2131231173;
 
-  private View view2131230956;
+  private View view2131231015;
 
-  private View view2131230958;
+  private View view2131231017;
 
   @UiThread
   public PetMsgActivity_ViewBinding(final T target, View source) {
@@ -28,7 +28,7 @@ public class PetMsgActivity_ViewBinding<T extends PetMsgActivity> implements Unb
     View view;
     target.mTopText = Utils.findRequiredViewAsType(source, R.id.top_text, "field 'mTopText'", TextView.class);
     view = Utils.findRequiredView(source, R.id.top_back, "method 'onViewClicked'");
-    view2131231098 = view;
+    view2131231173 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -36,7 +36,7 @@ public class PetMsgActivity_ViewBinding<T extends PetMsgActivity> implements Unb
       }
     });
     view = Utils.findRequiredView(source, R.id.msg_long, "method 'onViewClicked'");
-    view2131230956 = view;
+    view2131231015 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -44,7 +44,7 @@ public class PetMsgActivity_ViewBinding<T extends PetMsgActivity> implements Unb
       }
     });
     view = Utils.findRequiredView(source, R.id.msg_save, "method 'onViewClicked'");
-    view2131230958 = view;
+    view2131231017 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -61,12 +61,12 @@ public class PetMsgActivity_ViewBinding<T extends PetMsgActivity> implements Unb
 
     target.mTopText = null;
 
-    view2131231098.setOnClickListener(null);
-    view2131231098 = null;
-    view2131230956.setOnClickListener(null);
-    view2131230956 = null;
-    view2131230958.setOnClickListener(null);
-    view2131230958 = null;
+    view2131231173.setOnClickListener(null);
+    view2131231173 = null;
+    view2131231015.setOnClickListener(null);
+    view2131231015 = null;
+    view2131231017.setOnClickListener(null);
+    view2131231017 = null;
 
     this.target = null;
   }

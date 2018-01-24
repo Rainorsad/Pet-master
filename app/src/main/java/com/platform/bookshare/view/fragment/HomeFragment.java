@@ -109,7 +109,9 @@ public class HomeFragment extends BaseFragment
     @Override
     public void startdestroy()
     {
-        unbinder.unbind();
+        if (unbinder != null) {
+            unbinder.unbind();
+        }
         mAdapter = null;
         mJXFragment = null;
         mPDFragment = null;

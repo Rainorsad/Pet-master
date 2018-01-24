@@ -1,64 +1,67 @@
 package com.platform.bookshare.view.activity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.LinearLayout;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.platform.bookshare.R;
-import com.platform.bookshare.utils.StatusBarUtils;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class LoginActivity extends AppCompatActivity
-{
+public class LoginActivity extends AppCompatActivity {
 
-    @BindView(R.id.top_text)
-    TextView mTopText;
-    @BindView(R.id.lin_main)
-    LinearLayout mLinMain;
+    @BindView(R.id.img_exit)
+    ImageView imgExit;
+    @BindView(R.id.edit_phone)
+    EditText editPhone;
+    @BindView(R.id.edit_pass)
+    EditText editPass;
+    @BindView(R.id.login_but)
+    Button loginBut;
+    @BindView(R.id.login_textusershow)
+    TextView loginTextusershow;
+    @BindView(R.id.login_wechat)
+    ImageView loginWechat;
+    @BindView(R.id.login_qq)
+    ImageView loginQq;
+    @BindView(R.id.login_sina)
+    ImageView loginSina;
 
-    public static LoginActivity instance = null;
+    private Context context;
+    private String phoneNumber;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        StatusBarUtils.setWindowStatusBarColor(this, R.color.colorPet);
         setContentView(R.layout.activity_login);
         ButterKnife.bind(this);
-        instance = this;
-        init();
+        context = this;
     }
 
-    private void init()
-    {
-        mTopText.setText("登录");
-        mLinMain.setVisibility(View.VISIBLE);
-        mLinMain.animate().setDuration(500).scaleX(1).scaleY(1);
-    }
-
-    @OnClick({R.id.top_back, R.id.login_miss, R.id.login_btn, R.id.login_more})
-    public void onViewClicked(View view)
-    {
-        switch (view.getId())
-        {
-            case R.id.top_back:
-                mLinMain.animate().setDuration(500).scaleX(0).scaleY(0);
+    @OnClick({R.id.login_but, R.id.login_wechat, R.id.login_qq, R.id.login_sina})
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.login_but:
+                //登录
+                Intent it = new Intent(context,MainActivity.class);
+                startActivity(it);
                 finish();
                 break;
-            case R.id.login_miss:
-                startActivity(new Intent(instance, MissActivity.class));
+            //分享
+            case R.id.login_wechat:
                 break;
-            case R.id.login_btn:
-                startActivity(new Intent(LoginActivity.this, MainActivity.class));
-                finish();
+            case R.id.login_qq:
                 break;
-            default:
+            case R.id.login_sina:
                 break;
         }
     }
