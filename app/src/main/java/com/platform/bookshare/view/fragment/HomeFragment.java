@@ -1,25 +1,17 @@
 package com.platform.bookshare.view.fragment;
 
+import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.View;
-import android.widget.ImageView;
-import android.widget.TextView;
 
-import com.platform.bookshare.view.child.JXFragment;
-import com.platform.bookshare.view.child.PDFragment;
 import com.platform.bookshare.R;
-import com.platform.bookshare.view.child.DTFragment;
+import com.platform.bookshare.adapter.HomePageAdapter;
+import com.zhy.autolayout.utils.AutoUtils;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import butterknife.BindView;
-import butterknife.ButterKnife;
-import butterknife.OnClick;
-import butterknife.Unbinder;
 
 /**
  * 作者：${赵若位} on 2017/6/3 23:06
@@ -27,159 +19,77 @@ import butterknife.Unbinder;
  * 功能：
  */
 
-public class HomeFragment extends BaseFragment
-{
-    @BindView(R.id.camera)
-    ImageView mCamera;
-    @BindView(R.id.dic_one)
-    TextView mDicOne;
-    @BindView(R.id.dic_two)
-    TextView mDicTwo;
-    @BindView(R.id.dic_three)
-    TextView mDicThree;
-    @BindView(R.id.home_main)
-    ViewPager mHomeMain;
-    Unbinder unbinder;
+public class HomeFragment extends BaseFragment {
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
+    private List<String> tabs = new ArrayList<>();
+    private List<Fragment> fragments = new ArrayList<>();
 
-    private JXFragment mJXFragment = new JXFragment();
-    private DTFragment mDTFragment = new DTFragment();
-    private PDFragment mPDFragment = new PDFragment();
-
-    private HomeAdapter mAdapter;
-
-
+    private HomePageAdapter homePageAdapter;
+    private RecycleFragment fragment;
 
     @Override
-    public int getResource()
-    {
+    public int getResource() {
         return R.layout.fragment_home;
     }
 
     @Override
-    public void init(View view)
-    {
-        ButterKnife.bind(this, view);
-        mAdapter = new HomeAdapter(getChildFragmentManager());
-        mHomeMain.setOffscreenPageLimit(1);
-        mHomeMain.setAdapter(mAdapter);
-        mHomeMain.addOnPageChangeListener(new ViewPager.OnPageChangeListener()
-        {
-            @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels)
-            {
+    public void init(View view) {
+        AutoUtils.auto(view);
+        tabLayout = (TabLayout) view.findViewById(R.id.home_tablayout);
+        viewPager = (ViewPager) view.findViewById(R.id.home_viewpage);
 
-            }
+        tabLayout.setTabMode(TabLayout.MODE_FIXED);
+        fragment = new RecycleFragment();
 
-            @Override
-            public void onPageSelected(int position)
-            {
-                resetBackground();
-                switch (position)
-                {
-                    case 0:
-                        mDicOne.setBackgroundResource(R.color.colorWhite);
-                        mCamera.setVisibility(View.VISIBLE);
-                        break;
-                    case 1:
-                        mDicTwo.setBackgroundResource(R.color.colorWhite);
-                        mCamera.setVisibility(View.VISIBLE);
-                        break;
-                    case 2:
-                        mDicThree.setBackgroundResource(R.color.colorWhite);
-                        mCamera.setVisibility(View.GONE);
-                        break;
-                    default:
-                        break;
-                }
-            }
-
-            @Override
-            public void onPageScrollStateChanged(int state)
-            {
-
-            }
-        });
     }
 
     @Override
-    public void loadingDatas()
-    {
+    public void loadingDatas() {
+        tabs.add("默认");
+        tabs.add("销量");
+        tabs.add("价格");
+        tabs.add("好评");
+        tabs.add("出版时间");
+
+        Bundle bundle = new Bundle();
+        for (int i=0;i<5;i++){
+            bundle.putInt("index",i);
+            fragments.add(RecycleFragment.newInstance(bundle));
+        }
+
+//        fragments.add(fragment.setArguments());
+//        fragments.add(new RecycleFragment());
+//        fragments.add(new RecycleFragment());
+//        fragments.add(new RecycleFragment());
+//        fragments.add(new RecycleFragment());
+
+        homePageAdapter = new HomePageAdapter(getActivity().getSupportFragmentManager(),getActivity(),fragments,tabs);
+        viewPager.setAdapter(homePageAdapter);
+        viewPager.addOnPageChangeListener(new HomePageChangeListener());
+        tabLayout.setupWithViewPager(viewPager);
     }
 
     @Override
-    public void startdestroy()
-    {
-        if (unbinder != null) {
-            unbinder.unbind();
-        }
-        mAdapter = null;
-        mJXFragment = null;
-        mPDFragment = null;
-        mDTFragment = null;
+    public void startdestroy() {
     }
 
+    class HomePageChangeListener implements ViewPager.OnPageChangeListener{
+        @Override
+        public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 
-    @OnClick({R.id.home_one, R.id.home_two, R.id.home_three})
-    public void onViewClicked(View view)
-    {
-        resetBackground();
-        switch (view.getId())
-        {
-            case R.id.home_one:
-                mDicOne.setBackgroundResource(R.color.colorWhite);
-                mHomeMain.setCurrentItem(0);
-                mCamera.setVisibility(View.VISIBLE);
-                break;
-            case R.id.home_two:
-                mDicTwo.setBackgroundResource(R.color.colorWhite);
-                mHomeMain.setCurrentItem(1);
-                mCamera.setVisibility(View.VISIBLE);
-                break;
-            case R.id.home_three:
-                mDicThree.setBackgroundResource(R.color.colorWhite);
-                mHomeMain.setCurrentItem(2);
-                mCamera.setVisibility(View.GONE);
-                break;
-            default:
-                break;
-        }
-    }
-
-
-
-    //重置指示器颜色
-    private void resetBackground()
-    {
-        mDicOne.setBackgroundResource(R.color.colorPet);
-        mDicThree.setBackgroundResource(R.color.colorPet);
-        mDicTwo.setBackgroundResource(R.color.colorPet);
-    }
-
-
-    private class HomeAdapter extends FragmentPagerAdapter
-    {
-        private List<Fragment> mList;
-
-        public HomeAdapter(FragmentManager fm)
-        {
-            super(fm);
-            mList = new ArrayList<>();
-            mList.add(mJXFragment);
-            mList.add(mDTFragment);
-            mList.add(mPDFragment);
         }
 
         @Override
-        public Fragment getItem(int position)
-        {
-            return mList.get(position);
+        public void onPageSelected(int position) {
+
         }
 
         @Override
-        public int getCount()
-        {
-            return mList == null?0:mList.size();
+        public void onPageScrollStateChanged(int state) {
+            Bundle bundle = new Bundle();
+            bundle.putInt("index",state);
+            fragment.setArguments(bundle);
         }
     }
-
 }
