@@ -12,24 +12,24 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guide_4_anim_1.png.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_4_anim_1.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guide_2_anim_7.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_2_anim_7.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guide_4_anim_1.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_4_anim_1.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_news_add_press.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\ic_news_add_press.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shop_child5.png.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\shop_child5.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_icon_back.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-xxhdpi\\icon_back.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shop_child5.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\shop_child5.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
@@ -52,16 +52,20 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guide_3_anim_14.png.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_3_anim_14.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_riyongpin.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\riyongpin.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guide_3_anim_14.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_3_anim_14.png"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_duihuaback.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\duihuaback.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -94,6 +98,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-mdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_bookshow.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\item_bookshow.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
@@ -134,6 +142,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_point_gray.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\shape_point_gray.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -192,12 +204,24 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_4_anim_16.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_shopinfo.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\activity_shopinfo.xml"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guide_2_anim_21.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_2_anim_21.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guanfang4.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guanfang4.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_banner.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\banner-1.4.10.aar\\71f2cedce7afbda4b0794bf3873f0f6a\\res\\drawable\\no_banner.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_praise.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\praise.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_cab_background_internal_bg.xml.flat",
@@ -208,12 +232,16 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout\\notification_action_tombstone.xml"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon_back_8a8a8a.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-xhdpi\\icon_back_8a8a8a.png"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tuijian13.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\tuijian13.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_icon_back_8a8a8a.png.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-xhdpi\\icon_back_8a8a8a.png"
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_bookimg.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-mdpi\\bookimg.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_singlechoice_material.xml.flat",
@@ -288,24 +316,24 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\9087eafc8564ceb12f3cb46f8b879479\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jx_user5.jpg.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\jx_user5.jpg"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shop_child22.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\shop_child22.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jx_user5.jpg.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\jx_user5.jpg"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -320,12 +348,12 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-ldrtl-hdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner_tuijian4.png.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\banner_tuijian4.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shop_child10.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\shop_child10.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner_tuijian4.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\banner_tuijian4.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_fragme_booklist.png.flat",
@@ -364,16 +392,16 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_1_anim_14.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
-        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\9087eafc8564ceb12f3cb46f8b879479\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_map_list.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-mdpi\\map_list.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_design_ic_visibility.xml.flat",
-        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\9087eafc8564ceb12f3cb46f8b879479\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yaowen1.png.flat",
@@ -452,20 +480,24 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\pd_4.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_zhuliang4.png.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\zhuliang4.png"
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_msg_btn_white.xml.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\shape_msg_btn_white.xml"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_zhuliang4.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\zhuliang4.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_verification_code.xml.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\activity_verification_code.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_replay.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\replay.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_me_message_icon.png.flat",
@@ -480,6 +512,10 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\service_search.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bmob_update_button_ok_bg_normal.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable\\bmob_update_button_ok_bg_normal.xml"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_zazhi1.jpg.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\zazhi1.jpg"
     },
@@ -492,12 +528,12 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar_include.xml.flat",
-        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\9087eafc8564ceb12f3cb46f8b879479\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar_include.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\9087eafc8564ceb12f3cb46f8b879479\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_zazhi2.jpg.flat",
@@ -568,12 +604,12 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_4_anim_9.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guide_1_anim_18.png.flat",
@@ -612,12 +648,12 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\chat_title_layout.xml"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
-        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\9087eafc8564ceb12f3cb46f8b879479\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_support_simple_spinner_dropdown_item.xml.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\9087eafc8564ceb12f3cb46f8b879479\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_news_press.png.flat",
@@ -676,8 +712,16 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\item_bookinfo.xml"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_radius.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\banner-1.4.10.aar\\71f2cedce7afbda4b0794bf3873f0f6a\\res\\drawable\\white_radius.xml"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home.xml.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bmob_update_btn_check_on_holo_light.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable-hdpi-v4\\bmob_update_btn_check_on_holo_light.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_spinner.xml.flat",
@@ -700,8 +744,16 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\fragment_zhazi.xml"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bmob_update_button_cancel_bg_selector.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable\\bmob_update_button_cancel_bg_selector.xml"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner_shop4.webp.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\banner_shop4.webp"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_black_back_icon.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\black_back_icon.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guide_1_anim_17.png.flat",
@@ -710,6 +762,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_banner_zazhi5.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\banner_zazhi5.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bmob_update_button_ok_bg_tap.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable\\bmob_update_button_ok_bg_tap.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_icon.xml.flat",
@@ -734,6 +790,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_fragmentevaluation.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\item_fragmentevaluation.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -792,16 +852,16 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share_gift_grey.png.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\share_gift_grey.png"
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_btn_checkable.xml.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
-        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share_gift_grey.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\share_gift_grey.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
@@ -830,6 +890,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_me_my_favorites_icon.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\me_my_favorites_icon.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bmob_update_button_cancel_bg_tap.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable\\bmob_update_button_cancel_bg_tap.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guide_3_anim_13.png.flat",
@@ -884,12 +948,12 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gl_rotate_left_click.png.flat",
@@ -932,6 +996,10 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_1_anim_13.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bmob_update_close_bg_normal.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable-hdpi-v4\\bmob_update_close_bg_normal.png"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -942,6 +1010,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pd_header.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\pd_header.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_chat_rightimg.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\item_chat_rightimg.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guide_2_anim_11.png.flat",
@@ -992,12 +1064,12 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_moment_comment_icon.png.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\moment_comment_icon.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dongman2.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\dongman2.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_moment_comment_icon.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\moment_comment_icon.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\anim_design_bottom_sheet_slide_out.xml.flat",
@@ -1012,12 +1084,16 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_2_anim_8.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar.xml.flat",
-        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\9087eafc8564ceb12f3cb46f8b879479\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_bmob_update_dialog.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\layout\\bmob_update_dialog.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\9087eafc8564ceb12f3cb46f8b879479\\res\\layout\\design_layout_snackbar.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_borderless_material.xml.flat",
@@ -1032,12 +1108,12 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\ic_me.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
-        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dt_4.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\dt_4.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_background_transition_holo_light.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -1126,6 +1202,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_spinner.xml.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_chat_righttext.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\item_chat_righttext.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gl_rotate_right_click.png.flat",
@@ -1288,6 +1368,10 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\banner_shop5.webp"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bmob_update_wifi_disable.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable\\bmob_update_wifi_disable.png"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_jx_dongzuo.xml.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\shape_jx_dongzuo.xml"
     },
@@ -1306,6 +1390,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-ldrtl-xxhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_linstyle_search.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\home_linstyle_search.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_miss.xml.flat",
@@ -1334,6 +1422,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lable_style.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\lable_style.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tuijian17.png.flat",
@@ -1382,6 +1474,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\9087eafc8564ceb12f3cb46f8b879479\\res\\drawable-xxhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\animator_scale_with_alpha.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\banner-1.4.10.aar\\71f2cedce7afbda4b0794bf3873f0f6a\\res\\animator\\scale_with_alpha.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_jx_guanzhu.xml.flat",
@@ -1494,6 +1590,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_home_true.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_home_true.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_me_feedback_icon.png.flat",
@@ -1618,6 +1718,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bmob_update_button_ok_bg_focused.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable\\bmob_update_button_ok_bg_focused.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_xuetang12.png.flat",
@@ -1860,6 +1964,10 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\yaowen3.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_shopinfo.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\fragment_shopinfo.xml"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ratingbar_material.xml.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable\\abc_ratingbar_material.xml"
     },
@@ -1900,6 +2008,10 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_shopcars.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_shopcars.png"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
@@ -1932,6 +2044,10 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\pd_9.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_banner.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\banner-1.4.10.aar\\71f2cedce7afbda4b0794bf3873f0f6a\\res\\layout\\banner.xml"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
@@ -1942,6 +2058,14 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bmob_update_button_cancel_bg_focused.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable\\bmob_update_button_cancel_bg_focused.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bmob_update_button_close_bg_selector.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable\\bmob_update_button_close_bg_selector.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_me_shop_cart_icon.png.flat",
@@ -2004,10 +2128,6 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_mall_cart.png.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\ic_mall_cart.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
     },
@@ -2030,6 +2150,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_chat_leftimg.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\item_chat_leftimg.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -2062,6 +2186,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_me_after_sales_icon.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\me_after_sales_icon.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bmob_update_button_cancel_bg_normal.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable\\bmob_update_button_cancel_bg_normal.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guide_4_anim_10.png.flat",
@@ -2150,6 +2278,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_yaowen7.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\yaowen7.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bmob_update_close_bg_tap.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable-hdpi-v4\\bmob_update_close_bg_tap.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_back.png.flat",
@@ -2246,6 +2378,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baojian.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\baojian.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_evluation_false.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\evluation_false.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -2366,6 +2502,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bmob_update_button_check_selector.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable\\bmob_update_button_check_selector.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -2516,6 +2656,14 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\dongman8.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gray_radius.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\banner-1.4.10.aar\\71f2cedce7afbda4b0794bf3873f0f6a\\res\\drawable\\gray_radius.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_chat_lefttext.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\item_chat_lefttext.xml"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_header_msg_zazhi.xml.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\header_msg_zazhi.xml"
     },
@@ -2548,6 +2696,10 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bmob_update_btn_check_on_pressed_holo_light.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable-hdpi-v4\\bmob_update_btn_check_on_pressed_holo_light.png"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dongman10.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\dongman10.png"
     },
@@ -2562,6 +2714,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_msg_tuijian_banner.xml.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\item_msg_tuijian_banner.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_recycleview.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\item_recycleview.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pintuan_seven.png.flat",
@@ -2620,6 +2776,10 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-hdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_background.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\banner-1.4.10.aar\\71f2cedce7afbda4b0794bf3873f0f6a\\res\\drawable\\black_background.xml"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
@@ -2676,6 +2836,14 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\shop_child7.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_point_red.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\shape_point_red.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bmob_update_btn_check_on_focused_holo_light.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable-hdpi-v4\\bmob_update_btn_check_on_focused_holo_light.png"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout\\abc_select_dialog_material.xml"
     },
@@ -2706,6 +2874,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_bottom_share.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\ic_bottom_share.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_evaluation.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\item_evaluation.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shop_child20.png.flat",
@@ -2800,10 +2972,6 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\professional_hot_icon.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_show.png.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\ic_show.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
@@ -2838,6 +3006,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_msg_editext.xml.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\shape_msg_editext.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bmob_update_button_ok_bg_selector.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable\\bmob_update_button_ok_bg_selector.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_xuetang8.png.flat",
@@ -2936,6 +3108,10 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_4_anim_13.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bmob_update_dialog_bg.xml.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable\\bmob_update_dialog_bg.xml"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_xuetang2.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\xuetang2.png"
     },
@@ -3024,6 +3200,14 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_2_anim_17.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_duihuaback_left.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\duihuaback_left.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_home_false.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\ic_home_false.png"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-hdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -3068,12 +3252,16 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\activity_category.xml"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_msg_btn_pet.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\shape_msg_btn_pet.xml"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shape_msg_btn_pet.xml.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\shape_msg_btn_pet.xml"
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_against.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\against.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -3124,6 +3312,10 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bmob_update_btn_check_off_holo_light.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable-hdpi-v4\\bmob_update_btn_check_off_holo_light.png"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tuijian5.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\tuijian5.png"
     },
@@ -3162,6 +3354,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_evaluation.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\fragment_evaluation.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_back_clear.png.flat",
@@ -3232,6 +3428,10 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\professional_recommand_review_icon.png"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_search.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\search.png"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guide_3_anim_18.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guide_3_anim_18.png"
     },
@@ -3290,6 +3490,14 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_header_jx.xml.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\header_jx.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bmob_update_btn_check_off_focused_holo_light.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable-hdpi-v4\\bmob_update_btn_check_off_focused_holo_light.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_evluation_true.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-hdpi\\evluation_true.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_moment_like_icon.png.flat",
@@ -3388,12 +3596,12 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guanfang8.png.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guanfang8.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_guanfang8.png.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\guanfang8.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login_pwd_icon.png.flat",
@@ -3500,10 +3708,6 @@
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\find_shop_icon.png"
     },
     {
-        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_show_press.png.flat",
-        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\ic_show_press.png"
-    },
-    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
@@ -3528,12 +3732,20 @@
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chat.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_guide_start.png.flat",
         "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\mipmap-xxhdpi\\guide_start.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_bmob_update_btn_check_off_pressed_holo_light.png.flat",
+        "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\bmob-sdk-3.5.0.aar\\76cbec8a3b475718b93e0ee40f037799\\res\\drawable-hdpi-v4\\bmob_update_btn_check_off_pressed_holo_light.png"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -3554,6 +3766,10 @@
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat",
         "source": "C:\\Users\\WB\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\ca3261705a36bbc8f5d61adaf780f710\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_editstyle.xml.flat",
+        "source": "E:\\workpah\\Pet-master\\Pet-master\\app\\src\\main\\res\\drawable\\editstyle.xml"
     },
     {
         "merged": "E:\\workpah\\Pet-master\\Pet-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pintuan_one.png.flat",

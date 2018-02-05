@@ -52,7 +52,7 @@
                 android:layout_height="58px"
                 android:adjustViewBounds="true"
                 android:scaleType="centerCrop"
-                android:background="@drawable/ic_show"/>
+                android:background="@mipmap/ic_home_false"/>
 
             <TextView
                 android:id="@+id/tv_home"

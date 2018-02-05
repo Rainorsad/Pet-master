@@ -3,8 +3,8 @@ package com.platform.bookshare.view.fragment;
 
 import android.support.annotation.CallSuper;
 import android.support.annotation.UiThread;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.ListView;
 import butterknife.Unbinder;
 import butterknife.internal.Utils;
 import com.platform.bookshare.R;
@@ -18,7 +18,7 @@ public class ShoppingFragment_ViewBinding<T extends ShoppingFragment> implements
   public ShoppingFragment_ViewBinding(T target, View source) {
     this.target = target;
 
-    target.mShopMain = Utils.findRequiredViewAsType(source, R.id.shop_main, "field 'mShopMain'", ListView.class);
+    target.mShopMain = Utils.findRequiredViewAsType(source, R.id.shop_main, "field 'mShopMain'", RecyclerView.class);
   }
 
   @Override

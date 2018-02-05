@@ -16,17 +16,17 @@ import java.lang.Override;
 public class MsgFragment_ViewBinding<T extends MsgFragment> implements Unbinder {
   protected T target;
 
-  private View view2131231024;
+  private View view2131231059;
 
-  private View view2131231025;
+  private View view2131231060;
 
-  private View view2131231026;
+  private View view2131231061;
 
-  private View view2131231027;
+  private View view2131231062;
 
-  private View view2131231028;
+  private View view2131231063;
 
-  private View view2131231029;
+  private View view2131231064;
 
   @UiThread
   public MsgFragment_ViewBinding(final T target, View source) {
@@ -47,7 +47,7 @@ public class MsgFragment_ViewBinding<T extends MsgFragment> implements Unbinder 
     target.mMsgText5 = Utils.findRequiredViewAsType(source, R.id.msg_text5, "field 'mMsgText5'", TextView.class);
     target.mMsgText6 = Utils.findRequiredViewAsType(source, R.id.msg_text6, "field 'mMsgText6'", TextView.class);
     view = Utils.findRequiredView(source, R.id.msg_title1, "method 'onViewClicked'");
-    view2131231024 = view;
+    view2131231059 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -55,7 +55,7 @@ public class MsgFragment_ViewBinding<T extends MsgFragment> implements Unbinder 
       }
     });
     view = Utils.findRequiredView(source, R.id.msg_title2, "method 'onViewClicked'");
-    view2131231025 = view;
+    view2131231060 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -63,7 +63,7 @@ public class MsgFragment_ViewBinding<T extends MsgFragment> implements Unbinder 
       }
     });
     view = Utils.findRequiredView(source, R.id.msg_title3, "method 'onViewClicked'");
-    view2131231026 = view;
+    view2131231061 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -71,7 +71,7 @@ public class MsgFragment_ViewBinding<T extends MsgFragment> implements Unbinder 
       }
     });
     view = Utils.findRequiredView(source, R.id.msg_title4, "method 'onViewClicked'");
-    view2131231027 = view;
+    view2131231062 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -79,7 +79,7 @@ public class MsgFragment_ViewBinding<T extends MsgFragment> implements Unbinder 
       }
     });
     view = Utils.findRequiredView(source, R.id.msg_title5, "method 'onViewClicked'");
-    view2131231028 = view;
+    view2131231063 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -87,7 +87,7 @@ public class MsgFragment_ViewBinding<T extends MsgFragment> implements Unbinder 
       }
     });
     view = Utils.findRequiredView(source, R.id.msg_title6, "method 'onViewClicked'");
-    view2131231029 = view;
+    view2131231064 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -116,18 +116,18 @@ public class MsgFragment_ViewBinding<T extends MsgFragment> implements Unbinder 
     target.mMsgText5 = null;
     target.mMsgText6 = null;
 
-    view2131231024.setOnClickListener(null);
-    view2131231024 = null;
-    view2131231025.setOnClickListener(null);
-    view2131231025 = null;
-    view2131231026.setOnClickListener(null);
-    view2131231026 = null;
-    view2131231027.setOnClickListener(null);
-    view2131231027 = null;
-    view2131231028.setOnClickListener(null);
-    view2131231028 = null;
-    view2131231029.setOnClickListener(null);
-    view2131231029 = null;
+    view2131231059.setOnClickListener(null);
+    view2131231059 = null;
+    view2131231060.setOnClickListener(null);
+    view2131231060 = null;
+    view2131231061.setOnClickListener(null);
+    view2131231061 = null;
+    view2131231062.setOnClickListener(null);
+    view2131231062 = null;
+    view2131231063.setOnClickListener(null);
+    view2131231063 = null;
+    view2131231064.setOnClickListener(null);
+    view2131231064 = null;
 
     this.target = null;
   }

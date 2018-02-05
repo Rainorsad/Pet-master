@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_recycle"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/EBEFEA"
+        />
+    <RelativeLayout
+        android:layout_height="150px"
+        android:layout_width="match_parent"
+        android:background="@color/EBECF0">
+
+        <EditText
+            android:layout_width="1200px"
+            android:layout_height="130px"
+            android:layout_centerVertical="true"
+            android:background="@drawable/editstyle"
+            android:layout_marginLeft="20px"
+            />
+    </RelativeLayout>
+</com.zhy.autolayout.AutoLinearLayout>

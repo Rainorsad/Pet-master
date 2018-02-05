@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/lin_userinfo"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal">
+
+        <com.platform.bookshare.utils.view.CircleImage
+            android:id="@+id/cirhead"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_me"
+            />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="迪迦"
+            android:textColor="@color/black_101010"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            />
+        <LinearLayout
+            android:id="@+id/lin_evaluation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_evlauation"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/lin_userinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/black_101010"
+        android:text="熟的质量还可以，客服的服务态度很好。三千万年前四大黑暗巨人之一，三千万年前与黑暗迪迦也是死党。同时也是拥有极快的速度，就算是以人间体来战斗都能以极快的速度将大古打趴，然后交给达拉姆将大古打成重伤。他平时非常的亢奋，其程度就像一只跳蚤一样的亢奋程度，最后与大古决战以极快的速度将大古拉进了反物质行星领域，由于大古与其战斗是龙卷型所以希特拉一直属于优势地位，但是由于居间惠队长引爆了埋藏在露露耶的所以炸弹，把大古和希特拉从反物质行星领域轰回到现实领域最后希特拉放出光线迪迦将其吸收变成了疾风型"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recy_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_evlauation"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/recy_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="2018-01-23 13:10"
+            android:textSize="11sp"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/sevenzero"
+            />
+
+        <ImageView
+            android:id="@+id/img_praise"
+            android:layout_gravity="center_vertical"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@mipmap/praise"
+            />
+
+        <TextView
+            android:id="@+id/tv_praise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sevenzero"
+            android:textSize="13sp"
+            android:inputType="number"
+            android:text="5"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="center_vertical"
+            />
+
+        <ImageView
+            android:id="@+id/img_against"
+            android:layout_gravity="center_vertical"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@mipmap/against"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:inputType="number"
+            android:id="@+id/tv_against"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sevenzero"
+            android:textSize="13sp"
+            android:text="5"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="center_vertical"
+            />
+
+        <ImageView
+            android:id="@+id/img_replay"
+            android:layout_gravity="center_vertical"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@mipmap/replay"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_replay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/sevenzero"
+            android:textSize="13sp"
+            android:text="回复"
+            android:layout_marginLeft="2dp"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+</RelativeLayout>

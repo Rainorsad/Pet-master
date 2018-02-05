@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
@@ -35,17 +36,14 @@ public class PhotoViewUtils {
     /**
      * 打开相机
      */
-    public static void openCamera(Context context) {
-        AppCompatActivity appCompatActivity = (AppCompatActivity) context;
-        if (ContextCompat.checkSelfPermission(context, Manifest.permission.CAMERA)
+    public static Intent openCamera(FragmentActivity activity) {
+        if (ContextCompat.checkSelfPermission(activity, Manifest.permission.CAMERA)
                 == PackageManager.PERMISSION_GRANTED) {
 
         } else {
-            ActivityCompat.requestPermissions(appCompatActivity,
+            ActivityCompat.requestPermissions(activity,
                     new String[]{Manifest.permission.CAMERA}, 1);//1 can be another integer
         }
-
-
         String status = Environment.getExternalStorageState();
         if (status.equals(Environment.MEDIA_MOUNTED)) {
             try {
@@ -62,14 +60,16 @@ public class PhotoViewUtils {
                     Uri u = Uri.fromFile(f);
                     intent.putExtra(MediaStore.Images.Media.ORIENTATION, 0);
                     intent.putExtra(MediaStore.EXTRA_OUTPUT, u);
-                    appCompatActivity.startActivityForResult(intent, FLAG_CHOOSE_PHONE);
+                    return intent;
                 } else {
                     ViewInject.toast("拍照失败");
-                    appCompatActivity.finish();
+                    return null;
                 }
             } catch (Exception e) {
-                //
+                return null;
             }
+        }else {
+            return null;
         }
     }
 

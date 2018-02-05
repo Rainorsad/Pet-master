@@ -16,9 +16,9 @@ import java.lang.Override;
 public class MissActivity_ViewBinding<T extends MissActivity> implements Unbinder {
   protected T target;
 
-  private View view2131231074;
+  private View view2131231113;
 
-  private View view2131231173;
+  private View view2131231209;
 
   @UiThread
   public MissActivity_ViewBinding(final T target, View source) {
@@ -31,7 +31,7 @@ public class MissActivity_ViewBinding<T extends MissActivity> implements Unbinde
     target.registCode = Utils.findRequiredViewAsType(source, R.id.regist_code, "field 'registCode'", EditText.class);
     view = Utils.findRequiredView(source, R.id.regist_btn, "field 'registBtn' and method 'onViewClicked'");
     target.registBtn = Utils.castView(view, R.id.regist_btn, "field 'registBtn'", TextView.class);
-    view2131231074 = view;
+    view2131231113 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -40,7 +40,7 @@ public class MissActivity_ViewBinding<T extends MissActivity> implements Unbinde
     });
     target.topText = Utils.findRequiredViewAsType(source, R.id.top_text, "field 'topText'", TextView.class);
     view = Utils.findRequiredView(source, R.id.top_back, "method 'onViewClicked'");
-    view2131231173 = view;
+    view2131231209 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -62,10 +62,10 @@ public class MissActivity_ViewBinding<T extends MissActivity> implements Unbinde
     target.registBtn = null;
     target.topText = null;
 
-    view2131231074.setOnClickListener(null);
-    view2131231074 = null;
-    view2131231173.setOnClickListener(null);
-    view2131231173 = null;
+    view2131231113.setOnClickListener(null);
+    view2131231113 = null;
+    view2131231209.setOnClickListener(null);
+    view2131231209 = null;
 
     this.target = null;
   }

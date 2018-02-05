@@ -61,8 +61,9 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+       >
         <!-- 	1月16号后：GVzBZijj3MuSQWSjZuuan4RmuxKbHy9H
         1月16号前：EtGij43B537ldHIpmFeecmGhwOtAgjVC
         -->
@@ -149,6 +150,9 @@
         <activity android:name=".view.activity.BookInfoActivity" />
         <activity android:name=".view.activity.CategoryActivity" />
         <activity android:name=".utils.imageutils.CropImageActivity" />
+        <activity android:name=".view.activity.PhotoImageViewActivity" />
+        <activity android:name=".view.activity.ChatActivity" />
+        <activity android:name=".view.activity.ShopInfoActivity"/>
     </application>
 
 </manifest>

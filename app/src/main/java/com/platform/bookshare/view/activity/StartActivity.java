@@ -74,7 +74,7 @@ public class StartActivity extends BaseActivity{
                     @Override
                     public void onEnd(WowView w) {
                         mWowView.setVisibility(View.GONE);
-                        startActivity(new Intent(StartActivity.this,LoginActivity.class));
+                        startActivity(new Intent(StartActivity.this,MainActivity.class));
                         StartActivity.this.finish();
                     }
                 });

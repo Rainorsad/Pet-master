@@ -229,6 +229,16 @@
             <enum name="wrap_content" value="0"/>
         </attr><attr format="reference" name="actionBarDivider"/><attr format="reference" name="actionBarItemBackground"/><attr format="reference" name="actionMenuTextAppearance"/><attr format="color|reference" name="actionMenuTextColor"/><attr format="reference" name="actionModeStyle"/><attr format="reference" name="actionModeCloseButtonStyle"/><attr format="reference" name="actionModeBackground"/><attr format="reference" name="actionModeSplitBackground"/><attr format="reference" name="actionModeCloseDrawable"/><attr format="reference" name="actionModeCutDrawable"/><attr format="reference" name="actionModeCopyDrawable"/><attr format="reference" name="actionModePasteDrawable"/><attr format="reference" name="actionModeSelectAllDrawable"/><attr format="reference" name="actionModeShareDrawable"/><attr format="reference" name="actionModeFindDrawable"/><attr format="reference" name="actionModeWebSearchDrawable"/><attr format="reference" name="actionModePopupWindowStyle"/><attr format="reference" name="textAppearanceLargePopupMenu"/><attr format="reference" name="textAppearanceSmallPopupMenu"/><attr format="reference" name="textAppearancePopupMenuHeader"/><attr format="reference" name="dialogTheme"/><attr format="dimension" name="dialogPreferredPadding"/><attr format="reference" name="listDividerAlertDialog"/><attr format="reference" name="actionDropDownStyle"/><attr format="dimension" name="dropdownListPreferredItemHeight"/><attr format="reference" name="spinnerDropDownItemStyle"/><attr format="reference" name="homeAsUpIndicator"/><attr format="reference" name="actionButtonStyle"/><attr format="reference" name="buttonBarStyle"/><attr format="reference" name="buttonBarButtonStyle"/><attr format="reference" name="selectableItemBackground"/><attr format="reference" name="selectableItemBackgroundBorderless"/><attr format="reference" name="borderlessButtonStyle"/><attr format="reference" name="dividerVertical"/><attr format="reference" name="dividerHorizontal"/><attr format="reference" name="activityChooserViewStyle"/><attr format="reference" name="toolbarStyle"/><attr format="reference" name="toolbarNavigationButtonStyle"/><attr format="reference" name="popupMenuStyle"/><attr format="reference" name="popupWindowStyle"/><attr format="reference|color" name="editTextColor"/><attr format="reference" name="editTextBackground"/><attr format="reference" name="imageButtonStyle"/><attr format="reference" name="textAppearanceSearchResultTitle"/><attr format="reference" name="textAppearanceSearchResultSubtitle"/><attr format="reference|color" name="textColorSearchUrl"/><attr format="reference" name="searchViewStyle"/><attr format="dimension" name="listPreferredItemHeight"/><attr format="dimension" name="listPreferredItemHeightSmall"/><attr format="dimension" name="listPreferredItemHeightLarge"/><attr format="dimension" name="listPreferredItemPaddingLeft"/><attr format="dimension" name="listPreferredItemPaddingRight"/><attr format="reference" name="dropDownListViewStyle"/><attr format="reference" name="listPopupWindowStyle"/><attr format="reference" name="textAppearanceListItem"/><attr format="reference" name="textAppearanceListItemSmall"/><attr format="reference" name="panelBackground"/><attr format="dimension" name="panelMenuListWidth"/><attr format="reference" name="panelMenuListTheme"/><attr format="reference" name="listChoiceBackgroundIndicator"/><attr format="color" name="colorPrimary"/><attr format="color" name="colorPrimaryDark"/><attr format="color" name="colorAccent"/><attr format="color" name="colorControlNormal"/><attr format="color" name="colorControlActivated"/><attr format="color" name="colorControlHighlight"/><attr format="color" name="colorButtonNormal"/><attr format="color" name="colorSwitchThumbNormal"/><attr format="reference" name="controlBackground"/><attr format="color" name="colorBackgroundFloating"/><attr format="reference" name="alertDialogStyle"/><attr format="reference" name="alertDialogButtonGroupStyle"/><attr format="boolean" name="alertDialogCenterButtons"/><attr format="reference" name="alertDialogTheme"/><attr format="reference|color" name="textColorAlertDialogListItem"/><attr format="reference" name="buttonBarPositiveButtonStyle"/><attr format="reference" name="buttonBarNegativeButtonStyle"/><attr format="reference" name="buttonBarNeutralButtonStyle"/><attr format="reference" name="autoCompleteTextViewStyle"/><attr format="reference" name="buttonStyle"/><attr format="reference" name="buttonStyleSmall"/><attr format="reference" name="checkboxStyle"/><attr format="reference" name="checkedTextViewStyle"/><attr format="reference" name="editTextStyle"/><attr format="reference" name="radioButtonStyle"/><attr format="reference" name="ratingBarStyle"/><attr format="reference" name="ratingBarStyleIndicator"/><attr format="reference" name="ratingBarStyleSmall"/><attr format="reference" name="seekBarStyle"/><attr format="reference" name="spinnerStyle"/><attr format="reference" name="switchStyle"/><attr format="reference" name="listMenuViewStyle"/></declare-styleable>
     <declare-styleable name="AutoLayout_Layout"><attr name="layout_auto_basewidth"><flag name="width" value="1"/><flag name="height" value="2"/><flag name="textSize" value="4"/><flag name="padding" value="8"/><flag name="margin" value="16"/><flag name="marginLeft" value="32"/><flag name="marginTop" value="64"/><flag name="marginRight" value="128"/><flag name="marginBottom" value="256"/><flag name="paddingLeft" value="512"/><flag name="paddingTop" value="1024"/><flag name="paddingRight" value="2048"/><flag name="paddingBottom" value="4096"/></attr><attr name="layout_auto_baseheight"><flag name="width" value="1"/><flag name="height" value="2"/><flag name="textSize" value="4"/><flag name="padding" value="8"/><flag name="margin" value="16"/><flag name="marginLeft" value="32"/><flag name="marginTop" value="64"/><flag name="marginRight" value="128"/><flag name="marginBottom" value="256"/><flag name="paddingLeft" value="512"/><flag name="paddingTop" value="1024"/><flag name="paddingRight" value="2048"/><flag name="paddingBottom" value="4096"/><flag name="minWidth" value="8192"/><flag name="maxWidth" value="16384"/><flag name="minHeight" value="32768"/><flag name="maxHeight" value="65536"/></attr></declare-styleable>
+    <declare-styleable name="Banner"><attr format="integer" name="delay_time"/><attr format="integer" name="scroll_time"/><attr format="boolean" name="is_auto_play"/><attr format="color|reference" name="title_background"/><attr format="color" name="title_textcolor"/><attr format="dimension" name="title_textsize"/><attr format="dimension" name="title_height"/><attr format="dimension" name="indicator_width"/><attr format="dimension" name="indicator_height"/><attr format="dimension" name="indicator_margin"/><attr format="reference" name="indicator_drawable_selected"/><attr format="reference" name="indicator_drawable_unselected"/><attr format="reference" name="banner_layout"/><attr format="reference" name="banner_default_image"/><attr format="enum" name="image_scale_type">
+            <enum name="center" value="0"/>
+            <enum name="center_crop" value="1"/>
+            <enum name="center_inside" value="2"/>
+            <enum name="fit_center" value="3"/>
+            <enum name="fit_end" value="4"/>
+            <enum name="fit_start" value="5"/>
+            <enum name="fit_xy" value="6"/>
+            <enum name="matrix" value="7"/>
+        </attr></declare-styleable>
     <declare-styleable name="BottomNavigationView"><attr name="menu"/><attr name="itemIconTint"/><attr name="itemTextColor"/><attr name="itemBackground"/><attr name="elevation"/></declare-styleable>
     <declare-styleable name="BottomSheetBehavior_Layout"><attr format="dimension" name="behavior_peekHeight">
             
@@ -594,6 +604,7 @@
     <dimen name="design_tab_text_size_2line">12sp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="dp_32">32dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -625,16 +636,25 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="bannerContainer" type="id"/>
+    <item name="bannerDefaultImage" type="id"/>
+    <item name="bannerTitle" type="id"/>
+    <item name="bannerViewPager" type="id"/>
+    <item name="circleIndicator" type="id"/>
     <item name="home" type="id"/>
     <item name="id_tag_autolayout_margin" type="id"/>
     <item name="id_tag_autolayout_padding" type="id"/>
     <item name="id_tag_autolayout_size" type="id"/>
+    <item name="indicatorInside" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
+    <item name="numIndicator" type="id"/>
+    <item name="numIndicatorInside" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="textinput_counter" type="id"/>
     <item name="textinput_error" type="id"/>
+    <item name="titleView" type="id"/>
     <item name="transition_current_scene" type="id"/>
     <item name="transition_scene_layoutid_cache" type="id"/>
     <item name="up" type="id"/>
@@ -648,6 +668,20 @@
     <integer name="hide_password_duration">320</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="BMAppUpdate">应用更新</string>
+    <string name="BMBreak_Network">未联网</string>
+    <string name="BMDialog_InstallAPK">最新版本已下载，是否安装？</string>
+    <string name="BMGprsCondition">（提示：非WIFI环境）</string>
+    <string name="BMIgnore">忽略该版</string>
+    <string name="BMNewVersion">最新版本: </string>
+    <string name="BMNotNow">以后再说</string>
+    <string name="BMTargetSize">新版本大小:</string>
+    <string name="BMToast_IsUpdating">正在更新中....</string>
+    <string name="BMUpdateCheck">v3.1.4Beta</string>
+    <string name="BMUpdateContent">更新内容</string>
+    <string name="BMUpdateNow">立即更新</string>
+    <string name="BMUpdateSize">仅需要下载:</string>
+    <string name="BMUpdateTitle">发现新版本</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
     <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
@@ -681,6 +715,20 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="app_name">autolayout</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="bmob_common_action_cancel">取消</string>
+    <string name="bmob_common_action_continue">继续</string>
+    <string name="bmob_common_action_info_exist">正在下载中.</string>
+    <string name="bmob_common_action_pause">暂停</string>
+    <string name="bmob_common_download_failed">下载失败</string>
+    <string name="bmob_common_download_finish">下载完成，请点击安装</string>
+    <string name="bmob_common_download_notification_prefix">正在下载: </string>
+    <string name="bmob_common_info_interrupt">下载出错啦，请检查网络后继续。</string>
+    <string name="bmob_common_network_break_alert">请连接网络后再尝试！</string>
+    <string name="bmob_common_patch_finish">更新完成，请点击安装</string>
+    <string name="bmob_common_pause_notification_prefix">暂停: </string>
+    <string name="bmob_common_silent_download_finish">新版本已经准备好，请点击安装</string>
+    <string name="bmob_common_start_download_notification">正在下载应用</string>
+    <string name="bmob_common_start_patch_notification">正在更新安装包</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>

@@ -73,7 +73,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
 
         <!--
     	1月16号后：GVzBZijj3MuSQWSjZuuan4RmuxKbHy9H
@@ -162,6 +162,9 @@
         <activity android:name="com.platform.bookshare.view.activity.BookInfoActivity" />
         <activity android:name="com.platform.bookshare.view.activity.CategoryActivity" />
         <activity android:name="com.platform.bookshare.utils.imageutils.CropImageActivity" />
+        <activity android:name="com.platform.bookshare.view.activity.PhotoImageViewActivity" />
+        <activity android:name="com.platform.bookshare.view.activity.ChatActivity" />
+        <activity android:name="com.platform.bookshare.view.activity.ShopInfoActivity" />
     </application>
 
 </manifest>

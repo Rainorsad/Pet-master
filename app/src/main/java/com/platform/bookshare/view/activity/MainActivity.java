@@ -17,15 +17,12 @@ import com.platform.bookshare.view.fragment.ServiceFragment;
 import com.platform.bookshare.view.fragment.ShoppingFragment;
 import com.zhy.autolayout.AutoFrameLayout;
 
-import java.lang.reflect.Array;
-import java.util.ArrayList;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class MainActivity extends AppCompatActivity
-{
+public class MainActivity extends AppCompatActivity {
+    private final String TAG = "MainActivity";
 
     @BindView(R.id.main_fragment)
     AutoFrameLayout mMainFragment;
@@ -61,33 +58,29 @@ public class MainActivity extends AppCompatActivity
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState)
-    {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        StatusBarUtils.setWindowStatusBarColor(this,R.color.colorPet);
+        StatusBarUtils.setWindowStatusBarColor(this, R.color.colorPet);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
         fm = getSupportFragmentManager();
         init();
     }
 
-    private void init()
-    {
+    private void init() {
         showFragment(0);
-        mImgHome.setBackgroundResource(R.drawable.ic_show_press);
+        mImgHome.setBackgroundResource(R.mipmap.ic_home_true);
         mTvHome.setTextColor(getResources().getColor(R.color.colorPet));
     }
 
 
     @OnClick({R.id.parent_home, R.id.parent_house, R.id.parent_buy, R.id.parent_service, R.id.parent_mine})
-    public void onViewClicked(View view)
-    {
+    public void onViewClicked(View view) {
         reSetBackground();
-        switch (view.getId())
-        {
+        switch (view.getId()) {
             case R.id.parent_home:
                 showFragment(0);
-                mImgHome.setBackgroundResource(R.drawable.ic_show_press);
+                mImgHome.setBackgroundResource(R.mipmap.ic_home_true);
                 mTvHome.setTextColor(getResources().getColor(R.color.colorPet));
                 break;
             case R.id.parent_house:
@@ -115,58 +108,46 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
-    private void showFragment(int position)
-    {
+    private void showFragment(int position) {
         FragmentTransaction ft = fm.beginTransaction();
         hideFragment(ft);
-        switch (position)
-        {
+        switch (position) {
             case 0:
-                if (mHomeFragment != null)
-                {
-                    ft.show(mHomeFragment);
-                }else
-                {
-                    mHomeFragment = new HomeFragment();
-                    ft.add(R.id.main_fragment, mHomeFragment);
+                if (mShoppingFragment != null) {
+                    ft.show(mShoppingFragment);
+                } else {
+                    mShoppingFragment = new ShoppingFragment();
+                    ft.add(R.id.main_fragment, mShoppingFragment);
                 }
                 break;
             case 1:
-                if (mMsgFragment != null)
-                {
+                if (mMsgFragment != null) {
                     ft.show(mMsgFragment);
-                }else
-                {
+                } else {
                     mMsgFragment = new MsgFragment();
                     ft.add(R.id.main_fragment, mMsgFragment);
                 }
                 break;
             case 2:
-                if (mShoppingFragment != null)
-                {
-                    ft.show(mShoppingFragment);
-                }else
-                {
-                    mShoppingFragment = new ShoppingFragment();
-                    ft.add(R.id.main_fragment, mShoppingFragment);
+                if (mHomeFragment != null) {
+                    ft.show(mHomeFragment);
+                } else {
+                    mHomeFragment = new HomeFragment();
+                    ft.add(R.id.main_fragment, mHomeFragment);
                 }
                 break;
             case 3:
-                if (mServiceFragment != null)
-                {
+                if (mServiceFragment != null) {
                     ft.show(mServiceFragment);
-                }else
-                {
+                } else {
                     mServiceFragment = new ServiceFragment();
                     ft.add(R.id.main_fragment, mServiceFragment);
                 }
                 break;
             case 4:
-                if (mMineFragment != null)
-                {
+                if (mMineFragment != null) {
                     ft.show(mMineFragment);
-                }else
-                {
+                } else {
                     mMineFragment = new MineFragment();
                     ft.add(R.id.main_fragment, mMineFragment);
                 }
@@ -177,35 +158,28 @@ public class MainActivity extends AppCompatActivity
         ft.commit();
     }
 
-    private void hideFragment(FragmentTransaction ft)
-    {
-        if (mHomeFragment != null)
-        {
+    private void hideFragment(FragmentTransaction ft) {
+        if (mHomeFragment != null) {
             ft.hide(mHomeFragment);
         }
-        if (mMsgFragment != null)
-        {
+        if (mMsgFragment != null) {
             ft.hide(mMsgFragment);
         }
-        if (mShoppingFragment != null)
-        {
+        if (mShoppingFragment != null) {
             ft.hide(mShoppingFragment);
         }
-        if (mServiceFragment != null)
-        {
+        if (mServiceFragment != null) {
             ft.hide(mServiceFragment);
         }
-        if (mMineFragment != null)
-        {
+        if (mMineFragment != null) {
             ft.hide(mMineFragment);
         }
     }
 
 
     //    重置底部Button的背景和字体颜色
-    private void reSetBackground()
-    {
-        mImgHome.setBackgroundResource(R.drawable.ic_show);
+    private void reSetBackground() {
+        mImgHome.setBackgroundResource(R.mipmap.ic_home_false);
         mTvHome.setTextColor(getResources().getColor(R.color.color9));
 
         mImgHouse.setBackgroundResource(R.drawable.ic_news);
@@ -221,23 +195,21 @@ public class MainActivity extends AppCompatActivity
         mTvMine.setTextColor(getResources().getColor(R.color.color9));
     }
 
-    private void countNum(int num){
+    private void countNum(int num) {
         String[][] itemArry;
-        if(num>0){
-            if(num>3&&num%3>0){
+        if (num > 0) {
+            if (num > 3 && num % 3 > 0) {
 
-                itemArry = new String[num%3 +1][3];
-                for(int i = 0 ; i < itemArry.length ; i++){
-                    itemArry[i][0] = i+"1";
-                    itemArry[i][1] = i+"2";
-                    itemArry[i][2] = i+"3";
+                itemArry = new String[num % 3 + 1][3];
+                for (int i = 0; i < itemArry.length; i++) {
+                    itemArry[i][0] = i + "1";
+                    itemArry[i][1] = i + "2";
+                    itemArry[i][2] = i + "3";
                 }
 
             }
-        }else{
+        } else {
             System.out.println("this is fuck number.");
         }
     }
-
-
 }
